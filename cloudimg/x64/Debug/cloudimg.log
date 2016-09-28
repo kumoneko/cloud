@@ -1,0 +1,16 @@
+﻿  Source.cpp
+c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(62): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 請參閱 'sprintf' 的宣告
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 請參閱 'sprintf' 的宣告
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(180): warning C4101: 'k': 未參考的區域變數
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(181): warning C4101: 'y': 未參考的區域變數
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(181): warning C4101: 'x': 未參考的區域變數
+c:\users\tony\documents\visual studio 2015\projects\cloudimg\cloudimg\source.cpp(180): warning C4101: 'j': 未參考的區域變數
+  cloudimg.vcxproj -> C:\Users\tony\Documents\Visual Studio 2015\Projects\cloudimg\x64\Debug\cloudimg.exe
+  cloudimg.vcxproj -> C:\Users\tony\Documents\Visual Studio 2015\Projects\cloudimg\x64\Debug\cloudimg.pdb (Full PDB)
