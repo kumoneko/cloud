@@ -19,16 +19,13 @@ void hough(char name[20])
 	Mat pic,src, src_gray;
 
 	/// Read the image
+
 	src = imread(name, 0);
 	pic = imread(name,1);
-	
 
-
-	
 	///binary src
 
 	threshold(src, src_gray, 180, 255, THRESH_BINARY_INV);
-	
 	
 	///loop for clean other side
 	
@@ -57,14 +54,11 @@ void hough(char name[20])
 	*/
 
 
-	
-	
 	vector<Vec3f> circles;
-	
-	/// Apply the Hough Transform to find the circles
+	/// Hough find the circles
 	HoughCircles(src_gray, circles, CV_HOUGH_GRADIENT,1.6, src_gray.rows / 5, 18, 30, 60, 100);
 
-	/// Draw the circles detected
+	/// Draw the circles 
 	for (size_t i = 0; i < circles.size(); i++)
 	{
 		Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
@@ -92,19 +86,15 @@ void hough(char name[20])
 
 
 
-
-
-
 int main()
 {
 	int i=0, j, k;
-	int x, y;
+	
 	int day=26, hr=0, min=0;
 	char file[20];
-	Mat pic;
-	Mat dst;
 	
-
+	///read pictures
+	
 	for (i = 0;i<24;i++) {
 	
 		hr = i;
@@ -116,14 +106,7 @@ int main()
 		min = 30;
 		sprintf(file, "201609%02d%02d%02d.jpg", day, hr, min);
 		hough(file);
-		
-
-
-	
-		
+			
 	}
-	
-	
-	
 	return 0;
 }
